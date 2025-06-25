@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Isnartech_internship/brain_tumor_data/train
+val: /content/drive/MyDrive/Isnartech_internship/brain_tumor_data/valid
+
+
+nc: 4
+names: ['glioma_tumor', 'meningioma_tumor', 'no_tumor', 'pituitary_tumor']
+
+roboflow:
+  workspace: es-bhhx6
+  project: br22
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/es-bhhx6/br22/dataset/1
